@@ -2,6 +2,18 @@
 
 **The files included in this repository are meant to complement the [Prot16 themes for Vim](https://github.com/protesilaos/prot16-vim).**
 
+## Installation
+
+If you use [vundle](https://github.com/VundleVim/Vundle.vim):
+
+```
+" add to .vimrc
+Plugin 'protesilaos/prot16-vim'
+:PluginInstall
+```
+
+## About this repo
+
 The Prot16 collection was initially developed for the Atom text editor. This repository contains preliminary/experimental ports for the Vim Airline plugin for Vim. Support is provided both for GUI and terminal versions. 
 
 However, the latter requires the implementation of the corresponding palette. This can be done either manually or by using one of the existing ports, as defined in each theme's project page.
