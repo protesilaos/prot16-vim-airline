@@ -12,6 +12,22 @@ Plugin 'protesilaos/prot16-vim'
 :PluginInstall
 ```
 
+## Use
+
+Example using the `alto_dark` theme.
+
+In your `.vimrc` file add this:
+
+```
+let g:airline_theme='alto_dark'
+```
+
+Or for a temporary switch within Vim:
+
+```
+:AirlineTheme alto_dark
+```
+
 ## About this repo
 
 The Prot16 collection was initially developed for the Atom text editor. This repository contains preliminary/experimental ports for the Vim Airline plugin for Vim. Support is provided both for GUI and terminal versions. 
